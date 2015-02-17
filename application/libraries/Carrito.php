@@ -21,9 +21,26 @@ class Carrito {
         $this->carrito = $_SESSION['carrito'];
     }
     
-    function anadir_articulo($articulo=  array()){
+    function anadir_producto($articulo=  array()){
         
     }
     
-    //function eli
+    function quitar_producto(){
+        
+    }
+    
+    function get_contenido(){
+        
+    }
+    
+    function precio_total(){
+        
+    }
+    function articulos_total(){
+        
+    }
+    
+    function eliminar(){
+        
+    }
 }
